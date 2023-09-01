@@ -1,6 +1,9 @@
 # Python code for LSLiDAR N10
 I put together this really simple code for reading the LSLiDAR N10 through python and pure serial.
 
+## Dependencies
+- pyserial
+
 ## Usage
 ```python3
 from n10 import N10
