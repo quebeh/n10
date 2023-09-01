@@ -11,6 +11,8 @@ n10 = N10('COM7') # Initialize the N10
 n10.scan(lambda x:print(f'Angle: {x[0]}, Distance: {x[1]}')) # Start scanning
 ```
 
+A matplotlib example is provided [here](https://github.com/quebeh/n10/blob/master/n10_matplotlib.py)
+
 ## Reference
 - ### `N10.start()`
 
